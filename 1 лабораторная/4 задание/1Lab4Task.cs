@@ -1,22 +1,24 @@
-﻿/*string inputFile = @"path/File.xls";
-string outputFile = @"path/File.csv";
+﻿string file = System.IO.File.ReadAllText("File.csv");
 
-using (Converter converter = new Converter(inputFile)) {
-    Spread
-}*/
+//переход на новую строку и возврат каретки
+file = file.Replace('\n', '\r');
 
-PM> Install-Package GroupDocs.Conversion
+//Split - бьем на строки игнорирую пустые
+//Удаляем пустые вхождения
+string[] lines = file.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
-string inputFile = @"path/spreadsheet.xlsx";
-string outputFile = @"path/comma-sparated-values.csv";
+//строки
+int num_rows = lines.Length;
+//стобцы
+int num_cols = lines[0].Split(',').Length;
 
-using (Converter converter = new Converter(inputFile))
-{
-    SpreadsheetConvertOptions options = new SpreadsheetConvertOptions
-    {
-        PageNumber = 2,
-        PagesCount = 1,
-        Format = SpreadsheetFileType.Csv // Specify the conversion format
-    };
-    converter.Convert(outputFile, options);
+//массив под файл
+string[,] array = new string[num_rows, num_cols];
+
+//заполнение матрицы 
+for (int r = 0; r < num_rows; r++) {
+    string[] line_r = lines[r].Split(',');
+    for (int c = 0; c < num_cols; c++) {
+        array[r, c] = line_r[c];
+    }
 }
