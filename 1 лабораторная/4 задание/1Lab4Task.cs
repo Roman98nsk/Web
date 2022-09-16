@@ -1,24 +1,95 @@
-﻿string file = System.IO.File.ReadAllText("File.csv");
+﻿using System;
+using System.IO;
 
-//переход на новую строку и возврат каретки
-file = file.Replace('\n', '\r');
+class ReadFile {
+    static void Main() {
+        int j = 0;
+        
+        long[,] matrix = new long[10,10];
 
-//Split - бьем на строки игнорирую пустые
-//Удаляем пустые вхождения
-string[] lines = file.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
+        Console.WriteLine("\n");
 
-//строки
-int num_rows = lines.Length;
-//стобцы
-int num_cols = lines[0].Split(',').Length;
+        //читаем файл построчно
+        foreach (string line in System.IO.File.ReadLines("File.csv")) {
+            //выводим то что считали
+            Console.WriteLine(line);
+            
+            //в переменную кладем часть строки до ,
+            string[] word = line.Split(',');
+            //int[] word_convert;
+            int i = 0;
 
-//массив под файл
-string[,] array = new string[num_rows, num_cols];
+            foreach (string value in word) {
+                long number = Int64.Parse(value);
+                matrix[i, j] = number;
+                i++;
+            }
+            j++;
+        }
 
-//заполнение матрицы 
-for (int r = 0; r < num_rows; r++) {
-    string[] line_r = lines[r].Split(',');
-    for (int c = 0; c < num_cols; c++) {
-        array[r, c] = line_r[c];
+        Console.WriteLine("\nInput operation (max, min, aver, disp): ");
+        string into = Console.ReadLine();
+
+        switch (into) {
+            case "max":
+                long max = matrix[0, 0];
+                for (int a = 9; a >= 0; a--) {
+                    for (int b = 9; b >= 0; b--) {
+                        if (matrix[a, b] > max) {
+                            max = matrix[a, b];
+                            
+                        }
+                    }
+                }
+                Console.WriteLine($"{max}");
+                break;
+
+            case "min":
+            long min = matrix[0, 0];
+                for (int a = 0; a < 10; a++) {
+                    for (int b = 0; b < 10; b++) {
+                        if (matrix[a, b] < min) {
+                            min = matrix[a, b];
+                        }
+                    }
+                }
+                Console.WriteLine($"Minimum: {min}");
+                break;
+
+            case "aver":
+            long aver = 0;
+                for (int a = 0; a < 10; a++) {
+                    for (int b = 0; b < 10; b++) {
+                        aver += matrix[a, b];
+                        }
+                    }
+                    aver /= 100;
+                Console.WriteLine($"Average: {aver}");
+                break;
+
+
+            case "disp":
+            double S = 0, S1 = 0, S2 = 0;
+            double aver1 = 0;
+
+                for (int a = 0; a < 10; a++) {
+                    for (int b = 0; b < 10; b++) {
+                        aver1 += matrix[a, b];
+                        }
+                    }
+                    aver1 /= 100;
+                for (int a = 0; a < 10; a++) {
+                    for (int b = 0; b < 10; b++) {
+                        S = Math.Pow((matrix[a, b] - aver1), 2);
+                    }
+                }
+                S1 = 1.0 / 99.0;
+                S2 = Math.Sqrt(S * S1); 
+                Console.WriteLine($"Dispersion: {S2:f3}");
+                break;
+            default:
+                Console.WriteLine("Error of input");
+                break;
+        }
     }
 }
