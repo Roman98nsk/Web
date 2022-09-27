@@ -13,3 +13,18 @@
 /home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/obj/Debug/net6.0/ref/Web - разработка.dll
 /home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/obj/Debug/net6.0/Web - разработка.pdb
 /home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/obj/Debug/net6.0/Web - разработка.genruntimeconfig.cache
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/bin/Debug/net6.0/Web - разработка
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/bin/Debug/net6.0/Web - разработка.deps.json
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/bin/Debug/net6.0/Web - разработка.runtimeconfig.json
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/bin/Debug/net6.0/Web - разработка.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/bin/Debug/net6.0/ref/Web - разработка.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/bin/Debug/net6.0/Web - разработка.pdb
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.csproj.AssemblyReference.cache
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.GeneratedMSBuildEditorConfig.editorconfig
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.AssemblyInfoInputs.cache
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.AssemblyInfo.cs
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.csproj.CoreCompileInputs.cache
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/ref/Web - разработка.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.pdb
+/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/Debug/net6.0/Web - разработка.genruntimeconfig.cache

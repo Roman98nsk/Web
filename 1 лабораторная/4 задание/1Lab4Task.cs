@@ -28,7 +28,7 @@ class ReadFile {
         }
 
         Console.WriteLine("\nInput operation (max, min, aver, disp): ");
-        string into = Console.ReadLine();
+        string? into = Console.ReadLine();
 
         switch (into) {
             case "max":

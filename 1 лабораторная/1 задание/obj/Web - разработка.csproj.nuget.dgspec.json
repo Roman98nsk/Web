@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/Web - разработка.csproj": {}
+    "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/Web - разработка.csproj": {}
   },
   "projects": {
-    "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/Web - разработка.csproj": {
+    "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/Web - разработка.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/Web - разработка.csproj",
+        "projectUniqueName": "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/Web - разработка.csproj",
         "projectName": "Web - разработка",
-        "projectPath": "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/Web - разработка.csproj",
+        "projectPath": "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/Web - разработка.csproj",
         "packagesPath": "/home/roman/.nuget/packages/",
-        "outputPath": "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/obj/",
+        "outputPath": "/home/roman/Рабочий стол/4 курс/Web - разработка/1 лабораторная/1 задание/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/roman/.nuget/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.109/sdk/6.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

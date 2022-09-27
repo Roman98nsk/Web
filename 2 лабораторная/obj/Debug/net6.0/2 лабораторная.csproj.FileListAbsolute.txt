@@ -1,0 +1,15 @@
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.csproj.AssemblyReference.cache
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.GeneratedMSBuildEditorConfig.editorconfig
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.AssemblyInfoInputs.cache
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.AssemblyInfo.cs
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.csproj.CoreCompileInputs.cache
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/bin/Debug/net6.0/2 лабораторная
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/bin/Debug/net6.0/2 лабораторная.deps.json
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/bin/Debug/net6.0/2 лабораторная.runtimeconfig.json
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/bin/Debug/net6.0/2 лабораторная.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/bin/Debug/net6.0/ref/2 лабораторная.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/bin/Debug/net6.0/2 лабораторная.pdb
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/ref/2 лабораторная.dll
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.pdb
+/home/roman/Рабочий стол/4 курс/Web - разработка/2 лабораторная/obj/Debug/net6.0/2 лабораторная.genruntimeconfig.cache

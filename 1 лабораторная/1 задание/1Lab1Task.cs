@@ -3,11 +3,11 @@ double degree = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine($"{degree}");
 
 Console.Write("Input name current scale: ");
-string Current_Scale = Console.ReadLine();
+string? Current_Scale = Console.ReadLine();
 Console.WriteLine($"{Current_Scale}");
 
 Console.Write("Input name target scale: ");
-string Target_Scale = Console.ReadLine();
+string? Target_Scale = Console.ReadLine();
 Console.WriteLine($"{Target_Scale}");
 
 if (Current_Scale == "c") {

@@ -1,5 +1,5 @@
 ﻿Console.Write("Input word: ");
-string word = Console.ReadLine();
+string? word = Console.ReadLine();
 
 int check = 0;
 for (int i = 0; i < word.Length / 2; i++) {
