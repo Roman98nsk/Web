@@ -1,0 +1,24 @@
+CREATE DATABASE CompanyDB
+
+GO
+
+USE CompanyDB
+
+GO
+
+CREATE TABLE Company
+(
+	Id INT PRIMARY KEY,
+	Name VARCHAR(30),
+	ContractStatus VARCHAR(13)
+)
+
+CREATE TABLE User_Compamy
+(
+	Id INT PRIMARY KEY,
+	Company_Id INT FOREIGN KEY REFERENCES Company(Id),
+	Name VARCHAR(30),
+	User_Login VARCHAR(30),
+	User_Password VARCHAR(30)
+)
+

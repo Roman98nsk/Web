@@ -1,0 +1,25 @@
+﻿<table class="table">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>FullName</td>
+            <td>Task</td>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Workers != null)
+        {
+            @foreach (var item in Workers)
+            {
+                @*На строчку ниже, мы при клике вызываем ивент, что мы нажали на эллемент и отправляем в Index.razor конкретного работягу, которого
+                    мы выбрали*@
+                <tr @onclick="() => { OnWorkerClick.InvokeAsync(item);}">
+                    <td>@item.Id</td>
+                    <td>@item.FullName</td>
+                    <td>@item.Task?.ToString()</td>
+                    <td><button @onclick="() => { DeleteWorker.InvokeAsync(item); }">Delete</button></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

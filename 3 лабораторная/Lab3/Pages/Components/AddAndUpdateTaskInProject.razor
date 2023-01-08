@@ -1,0 +1,29 @@
+﻿<div>
+    @ErrorString
+</div>
+<div class="container">
+    <div>
+        <label for="prefoldInpt">Id </label><br />
+        <input @bind="TaskId" style="width: 70px" type="number" id="Id" /><br />
+    </div>
+    <div>
+        <label for="TaskName">TaskName</label><br />
+        <input @bind="TaskName" type="text" id="TaskName" /><br />
+    </div>
+    <div>
+        <label for="TaskName">TaskName</label><br />
+        <select @bind="TaskStatus">
+            <option value="@DataBase.TaskStatus.Todo">ToDo</option>
+            <option value="@DataBase.TaskStatus.Develop">Develop</option>
+            <option value="@DataBase.TaskStatus.CodeReview">CodeReview</option>
+            <option value="@DataBase.TaskStatus.Test">Test</option>
+            <option value="@DataBase.TaskStatus.Realize">Realize</option>
+        </select>
+    </div>
+    <div>
+        <br/><button @onclick="CreateTask">Добавить задачу!!!</button>
+    </div>
+    <div>
+        <br /><button @onclick="UpdateTask">Обновить задачу!!!</button>
+    </div>
+</div>

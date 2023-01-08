@@ -1,0 +1,19 @@
+﻿@page "/"
+@using Lab3.Pages.Components
+<h2>Lab-3</h2>
+<h4>Projects</h4>
+<AddAndUpdateProject />
+<ViewProjectData DeleteProject="async project => await Context.DeleteProject(project.Id)"
+                 OnProjectClick="project => SelectOneProject(project.Id)" Projects="Projects" />
+<h4>Workers</h4>
+<AddDataToWorker/>
+<ViewAllWorkers DeleteWorker="async worker => await Context.DeleteWorker(worker)" OnWorkerClick="worker => SelectOneWorker(worker.Id)" Workers="Workers" />
+@if (ActiveProject != null)
+{
+    <h4>Task in selected project. Selected ProjectId @ActiveProject?.Id Selected WorkerId @ActiveWorker?.Id</h4>
+    @if (ActiveWorker != null)
+    {
+        <AddAndUpdateTaskInProject ActiveWorker="ActiveWorker" ActiveProject="ActiveProject" />
+    }
+    <ViewTasksInProject DeleteTask="async task => await Context.DeleteTaskToProject(ActiveProject,task)" ActiveProject="ActiveProject" />
+}

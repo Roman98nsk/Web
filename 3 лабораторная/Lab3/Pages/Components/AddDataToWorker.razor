@@ -1,0 +1,16 @@
+﻿<div>
+    @ErrorString
+</div>
+<div class="container">
+    <div>
+        <label for="prefoldInpt">Id </label><br />
+        <input @bind="Id" style="width: 70px" type="number" id="Id" /><br />
+    </div>
+    <div>
+        <label for="FullNameWorker">FullNameWorker </label><br />
+        <input @bind="FullName" type="text" id="FullNameWorker" /><br />
+    </div>
+    <div>
+        <br /><button @onclick="CreateWorker">Добавить работника!!!</button>
+    </div>
+</div>

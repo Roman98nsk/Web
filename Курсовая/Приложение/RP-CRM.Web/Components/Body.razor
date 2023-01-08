@@ -1,0 +1,16 @@
+﻿@inject IInMemoryCompaniesRepository CompaniesRepository
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Contract Status</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var company in CompaniesRepository.GetAllCompanies())
+        {
+            <Company CurrentCompany="@company"/>
+        }
+    </tbody>
+</table>

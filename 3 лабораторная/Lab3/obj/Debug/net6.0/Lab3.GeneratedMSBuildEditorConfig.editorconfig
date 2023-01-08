@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lab3
+build_property.RootNamespace = Lab3
+build_property.ProjectDir = /home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Components/AddAndUpdateProject.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9BZGRBbmRVcGRhdGVQcm9qZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Components/AddAndUpdateTaskInProject.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9BZGRBbmRVcGRhdGVUYXNrSW5Qcm9qZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Components/AddDataToWorker.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9BZGREYXRhVG9Xb3JrZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Components/ViewAllWorkers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9WaWV3QWxsV29ya2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Components/ViewProjectData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9WaWV3UHJvamVjdERhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Components/ViewTasksInProject.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9WaWV3VGFza3NJblByb2plY3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0r208z15gt
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/roman/Рабочий стол/4 курс/Web - разработка/3_lab/Lab3/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

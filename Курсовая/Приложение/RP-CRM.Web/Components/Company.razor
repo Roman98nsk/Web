@@ -1,0 +1,44 @@
+﻿@using RP_CRM.Data
+@inject IInMemoryCompaniesRepository CompaniesRepository
+
+<tr>
+    <td>@CurrentCompany.Name</td>
+    <td>@CurrentCompany.ContractStatus</td>
+    <button @onclick="ChangeContractStatus">@ButtonCaption</button>
+</tr>
+
+@code
+{
+    [Parameter]
+    public RP_CRM.Data.Company CurrentCompany { get; set; }
+        
+        private const string CONCLUDE_CONTRACT_CAPTION = "Заключить договор";
+    private const string VOID_CONTRACT_CAPTION = "Расторгнуть договор";
+    
+    public string ButtonCaption { get; set; } = CONCLUDE_CONTRACT_CAPTION;
+
+    private void ChangeContractStatus()
+    {
+        switch (CurrentCompany.ContractStatus)
+        {
+            case ContractStatus.NotConcluded:
+                CompaniesRepository.ConcludeContract(CurrentCompany.Name);
+                break;
+            case ContractStatus.Concluded:
+                CompaniesRepository.VoidContract(CurrentCompany.Name);
+                break;
+        }
+        
+        CurrentCompany.ContractStatus = CurrentCompany.ContractStatus switch
+        {
+            ContractStatus.NotConcluded => ContractStatus.Concluded,
+            _ => ContractStatus.Voided
+            };
+
+        ButtonCaption = CurrentCompany.ContractStatus switch
+        {
+            ContractStatus.NotConcluded =>  CONCLUDE_CONTRACT_CAPTION,
+            _ => VOID_CONTRACT_CAPTION
+            };
+    }
+}

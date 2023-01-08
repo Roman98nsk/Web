@@ -1,0 +1,46 @@
+﻿<div>
+    @ErrorString
+</div>
+<div class="container">
+    <div>
+        <label for="prefoldInpt">Id </label><br />
+        <input @bind="Id" style="width: 70px" type="number" id="Id" /><br />
+    </div>
+    <div>
+        <label for="NameProject">Project </label><br />
+        <input @bind="NameProject" type="text" id="NameProject" /><br />
+    </div>
+    <div>
+        <label for="NameCustomerCompany">CustomerCompany </label><br />
+        <input @bind="NameCustomerCompany" type="text" id="NameCustomerCompany" /><br />
+    </div>
+    <div>
+        <label for="NamePerformerCompany">PerformerCompany </label><br />
+        <input @bind="NamePerformerCompany" type="text" id="NamePerformerCompany" /><br />
+    </div>
+    <div>
+        <label for="FullNameExecutor">NameExecutor </label><br />
+        <input @bind="FullNameExecutor" type="text" id="FullNameExecutor" /><br />
+    </div>
+    <div>
+        <label for="FullNameSupervisor">NameSupervisor </label><br />
+        <input @bind="FullNameSupervisor" type="text" id="FullNameSupervisor" /><br />
+    </div>
+    <div>
+        <label for="TheDateOfTheBeginning">DateOfTheBeginning </label><br />
+        <input @bind="TheDateOfTheBeginning" type="date" id="TheDateOfTheBeginning" /><br />
+    </div>
+    <div>
+        <label for="ExpirationDate">ExpirationDate </label><br />
+        <input @bind="ExpirationDate" type="date" id="ExpirationDate" /><br />
+    </div>
+    <div>
+        <label for="Priority">Priority </label><br />
+        <input @bind="Priority" style="width: 70px" type="number" id="Priority" /><br />
+    </div>
+</div>
+<br />
+<div class="container">
+    <button @onclick="AddNewProject">Добавить!</button>
+    <button @onclick="UpdateNewProject">Изменить!</button>
+</div>

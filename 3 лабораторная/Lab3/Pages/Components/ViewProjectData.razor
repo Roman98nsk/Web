@@ -1,0 +1,39 @@
+﻿@using Lab3.DataBase
+@using TaskStatus = Lab3.DataBase.TaskStatus
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>FullNameExecutor</td>
+            <td>FullNameSupervisor</td>
+            <td>CustomerCompany</td>
+            <td>PerformerCompany</td>
+            <td>Project</td>
+            <td>DateBeginning</td>
+            <td>ExpirationDate</td>
+            <td>Priority</td>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Projects != null)
+        {
+            @foreach (var item in Projects)
+            {
+                <tr @onclick="() => { OnProjectClick.InvokeAsync(item);}">
+                    
+                    <td>@item.Id</td>
+                    <td>@item.FullNameExecutor</td>
+                    <td>@item.FullNameSupervisor</td>
+                    <td>@item.NameCustomerCompany</td>
+                    <td>@item.NamePerformerCompany</td>
+                    <td>@item.NameProject</td>
+                    <td>@item.TheDateOfTheBeginning.ToString("dd:MM:yyyy")</td>
+                    <td>@item.ExpirationDate.ToString("dd:MM:yyyy")</td>
+                    <td>@item.Priority</td>
+                    <td><button @onclick="() => { DeleteProject.InvokeAsync(item); }">Delete</button></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

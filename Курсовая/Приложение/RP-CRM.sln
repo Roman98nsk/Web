@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP-CRM.Desktop", "RP-CRM.Desktop\RP-CRM.Desktop.csproj", "{5AA15951-BDF5-416F-B3DC-76D1EAE366F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP-CRM.Domain", "RP-CRM.Domain\RP-CRM.Domain.csproj", "{2EB2C68B-7E9E-460D-A1B5-A8B3E6603094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP-CRM.Data", "RP-CRM.Data\RP-CRM.Data.csproj", "{0523E8A5-45A2-432D-8DCE-FDAA6F35E2C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP-CRM.Tests", "RP-CRM.Tests\RP-CRM.Tests.csproj", "{3B222B37-32F3-4721-8E68-AC58529D2F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP-CRM.Web", "RP-CRM.Web\RP-CRM.Web.csproj", "{5354DF7C-BF13-4559-AABF-97166BA70178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP-CRM.WebApi", "RP-CRM.WebApi\RP-CRM.WebApi.csproj", "{5A932D47-06A3-4188-809A-B80993632975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA15951-BDF5-416F-B3DC-76D1EAE366F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA15951-BDF5-416F-B3DC-76D1EAE366F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA15951-BDF5-416F-B3DC-76D1EAE366F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA15951-BDF5-416F-B3DC-76D1EAE366F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB2C68B-7E9E-460D-A1B5-A8B3E6603094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB2C68B-7E9E-460D-A1B5-A8B3E6603094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB2C68B-7E9E-460D-A1B5-A8B3E6603094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB2C68B-7E9E-460D-A1B5-A8B3E6603094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0523E8A5-45A2-432D-8DCE-FDAA6F35E2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0523E8A5-45A2-432D-8DCE-FDAA6F35E2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0523E8A5-45A2-432D-8DCE-FDAA6F35E2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0523E8A5-45A2-432D-8DCE-FDAA6F35E2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B222B37-32F3-4721-8E68-AC58529D2F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B222B37-32F3-4721-8E68-AC58529D2F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B222B37-32F3-4721-8E68-AC58529D2F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B222B37-32F3-4721-8E68-AC58529D2F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5354DF7C-BF13-4559-AABF-97166BA70178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5354DF7C-BF13-4559-AABF-97166BA70178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5354DF7C-BF13-4559-AABF-97166BA70178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5354DF7C-BF13-4559-AABF-97166BA70178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A932D47-06A3-4188-809A-B80993632975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A932D47-06A3-4188-809A-B80993632975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A932D47-06A3-4188-809A-B80993632975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A932D47-06A3-4188-809A-B80993632975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<div class="l-wrap">
+    <div class="three-col-grid">
+        @foreach (var task in ActiveProject?.Tasks!)
+        {
+            <div class="grid-item">
+                <div>Id: @task.Id</div><br />
+                <div>Имя: @task.Name</div><br />
+                <div>Статус: @task.Status</div><br/>
+                <div>Имя исполнителя: @task?.Worker?.FullName</div><br />
+                <div><button @onclick="() => { DeleteTask.InvokeAsync(task);}">Удалить!</button></div><br />
+            </div>
+        }
+    </div>
+</div>
